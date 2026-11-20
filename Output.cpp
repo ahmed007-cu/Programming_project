@@ -88,14 +88,17 @@ Input* Output::CreateInput() const
 //								Some Utility Functions										//
 //======================================================================================//
 
-int Output::GetCellStartX(const CellPosition & cellPos) const
+int Output::GetCellStartX(const CellPosition& cellPos) const
 {
 	///TODO: implement the following function as described in Output.h file
-	
+	int col = cellPos.HCell();
+	int x = UI.CellWidth * col;
+	return x;
 	// Hint: use HCell of the passed cellPos and UI.CellWidth
 
 	return 0; // this line should be changed with your implementation
 }
+
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
