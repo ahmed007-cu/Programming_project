@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": ".\\Debug\\Output.obj",
+            "outputs": [
+                ".\\Debug\\Output.h.obj.dt.module.json",
+                ".\\Debug\\Output.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
