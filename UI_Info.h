@@ -25,6 +25,14 @@ enum DESIGN_MODE_ITEMS // The items of the Design Mode (you should add more item
 	ITM_ADD_CARD,
 
 	///TODO: Add more items names here
+	ITM_SELECT_CARD,
+	ITM_COPY_CARD,
+	ITM_PASTE_CARD,
+	ITM_DELETE_CARD,
+	ITM_MOVE_CARD,
+	ITM_SHUFFLE_CARD,
+	ITM_SAVE_GRID,
+	ITM_OPEN_GRID,
 
 	ITM_EXIT,
 	ITM_SWITCH_TO_PLAY_MODE,
@@ -40,6 +48,8 @@ enum PLAY_MODE_ITEMS // The items of the Play Mode (you should add more items)
 	ITM_ROLL_DICE,
 
 	///TODO: Add more items names here
+	 ITM_INPUT_DICE_VALUE,
+	 ITM_NEW_GAME,
 
 	ITM_SWITCH_TO_DESIGN_MODE,
 
