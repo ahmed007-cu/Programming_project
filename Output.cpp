@@ -1,6 +1,7 @@
 #include "Output.h"
-
+#include"CellPosition.h"
 #include "Input.h"
+#include "CMUgraphicsLib\CMUgraphics.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////// 
 
@@ -101,6 +102,9 @@ int Output::GetCellStartX(const CellPosition & cellPos) const
 int Output::GetCellStartY(const CellPosition & cellPos) const
 {
 	///TODO: implement the following function as described in Output.h file
+	int row = cellPos.VCell();
+	int y = UI.ToolBarHeight + row * UI.CellHeight;
+	return y;
 
 	// Hint: use VCell of the passed cellPos, UI.CellHeight, and UI.ToolBarHeight
 
